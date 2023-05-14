@@ -42,3 +42,7 @@ int main () {
 
     return 0; //heap memory is automatically deleted when program ends
 }
+
+
+
+// malloc returns void pointer
