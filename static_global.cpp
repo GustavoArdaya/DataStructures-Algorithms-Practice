@@ -8,7 +8,7 @@ int fun(int n) {
                                 // same can be achieved by declaring a global variable outside function
     if (n>0) {
         x++;
-        return fun(n-1)+x;
+        return fun(n-1)+x;      
     }
     return 0;
 }
