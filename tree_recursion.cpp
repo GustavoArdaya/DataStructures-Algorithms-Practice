@@ -3,7 +3,7 @@
 int count {0};
 
 void fun(int n) {
-    count++;
+    count++; // count = x^n
     if (n>0){
         std::cout << n << " ";
         fun(n-1);   // 1 call (x) with n = 3 : 1^3 + 1^2 + 1^1 + 1^0 = 4
