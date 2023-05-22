@@ -9,7 +9,7 @@ int sum(int n) {
     return sum(n-1) + n;
 }
 
-// using for loop
+// using for loop - iterative solution
 int Isum(int n) {
 
     int s = 0;      // to store sum
