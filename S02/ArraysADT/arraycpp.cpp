@@ -4,7 +4,7 @@ class Array {
 
 private:
 
-    int *A;
+    int *A;         // initializing as pointer allows dynamic allocation of size
     int size;
     int length;
 
@@ -25,6 +25,14 @@ public:
     ~Array(){
         delete []A;
     }
+
+    int getSize() {
+        return size;
+    }
+
+    int getLength() {
+        return length;
+    }    
 
     void display();
     void append(int x);
@@ -391,6 +399,8 @@ Array* Array::set_difference(Array arr2) {
     return arr3;
 }
 
+/*
+
 int main() {
 
     
@@ -439,4 +449,4 @@ int main() {
     }while(ch<6);
 
     return 0;
-}
+} */
